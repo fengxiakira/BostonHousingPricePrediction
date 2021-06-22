@@ -16,14 +16,19 @@
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
+???
 
 * Project cloned into Azure Cloud Shell
+![clone](/cloneproject.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
+![all](/make.png)
 
 * Output of a test run
+![test](/passing_tests.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+![deploy](/successful_deployment.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
