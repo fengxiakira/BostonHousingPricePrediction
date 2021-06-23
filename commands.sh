@@ -1,0 +1,1 @@
+az webapp up -n BostonHousingPricePrediction --location eastus --sku B1

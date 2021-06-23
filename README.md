@@ -1,12 +1,13 @@
+![example workflow](https://github.com/fengxiakira/BostonHousingPricePrediction/actions/workflows/python-app.yml/badge.svg)
 # Overview
 
-<TODO: complete this with an overview of your project>
-
 ## Project Plan
-<TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+
+* [A link to a Trello board for the project](https://trello.com/b/f0h9Nuuu/az2-build-ci-cd-pipeline-5-29)
+
+
+* [A link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1dWaVzakvCpGNrWAXU-JxqgsjDw-sZNddCc69C8quTYc/edit#gid=596363533)
 
 ## Instructions
 
@@ -16,7 +17,7 @@
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
-???
+![APP SERVICE](/app_service.png)
 
 * Project cloned into Azure Cloud Shell
 ![clone](/cloneproject.png)
