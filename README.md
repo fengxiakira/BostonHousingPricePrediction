@@ -1,5 +1,8 @@
-![example workflow](https://github.com/fengxiakira/BostonHousingPricePrediction/actions/workflows/python-app.yml/badge.svg)
+
+[![Python application test with Github Actions](https://github.com/fengxiakira/BostonHousingPricePrediction/actions/workflows/python-app.yml/badge.svg)](https://github.com/fengxiakira/BostonHousingPricePrediction/actions/workflows/python-app.yml)
 # Overview
+
+BostonHousingPricePrediction is a web app that hosted on Azure App Service to predict the housing price at Boston.
 
 ## Project Plan
 
@@ -33,17 +36,14 @@
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
+![azurepiplines](./azpipeline-result.png)
+
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
-
+![prediction](./successful_prediction.png)
 * Output of streamed log files from deployed application
-
+![logtail](./log-tail.png)
 > 
 
 ## Enhancements
