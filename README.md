@@ -49,6 +49,7 @@ The output should look similar to this:
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
+To be continued
 
 ## Demo 
 
