@@ -6,7 +6,6 @@ BostonHousingPricePrediction is a web app that hosted on Azure App Service to pr
 
 ## Project Plan
 
-
 * [A link to a Trello board for the project](https://trello.com/b/f0h9Nuuu/az2-build-ci-cd-pipeline-5-29)
 
 
@@ -17,41 +16,44 @@ BostonHousingPricePrediction is a web app that hosted on Azure App Service to pr
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
 
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
+![diagram](./pics/diagram.png)
 
 * Project running on Azure App Service
-![APP SERVICE](/app_service.png)
+![APP SERVICE](./pics/app_service.png)
 
 * Project cloned into Azure Cloud Shell
-![clone](/cloneproject.png)
+![clone](./pics/cloneproject.png)
 
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-![all](/make.png)
+![all](./pics/make.png)
 
 * Output of a test run
-![test](/passing_tests.png)
+![test](./pics/passing_tests.png)
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
-![deploy](/successful_deployment.png)
+![deploy](./pics/successful_deployment.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-![azurepiplines](./azpipeline-result.png)
+![azurepiplines](./pics/azpipeline-result.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
 
-![prediction](./successful_prediction.png)
+![prediction](./pics/successful_prediction.png)
 * Output of streamed log files from deployed application
-![logtail](./log-tail.png)
+![logtail](./pics/log-tail.png)
+
+* Locust: load test output
+![locust](./pics/locust.png)
 > 
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Plan : May add a friendly user interface to it.
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+https://youtu.be/57mUqMczNWY
 
 
