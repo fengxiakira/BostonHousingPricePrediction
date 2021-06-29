@@ -50,12 +50,9 @@ The output should look similar to this:
 
 ## Enhancements
 
-<<<<<<< HEAD
+
 Plan : May add a friendly user interface to it.
-=======
-<TODO: A short description of how to improve the project in the future>
-To be continued
->>>>>>> d7b2f80f6dd4eb7757059b990ccf46465227e870
+
 
 ## Demo 
 
