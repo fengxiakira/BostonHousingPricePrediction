@@ -9,12 +9,14 @@ BostonHousingPricePrediction is a web app that hosted on Azure App Service to pr
 * [A link to a Trello board for the project](https://trello.com/b/f0h9Nuuu/az2-build-ci-cd-pipeline-5-29)
 
 
-* [A link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1dWaVzakvCpGNrWAXU-JxqgsjDw-sZNddCc69C8quTYc/edit#gid=596363533)
+* [A link to a spreadsheet that includes the original and final project plan](https://docs.google.com/spreadsheets/d/1dWaVzakvCpGNrWAXU-JxqgsjDw-sZNddCc69C8quTYc/edit?usp=sharing)
 
 ## Instructions
 
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram
+![architectural](./pics/architectural.png)
+
+* Instructions
 
 ![diagram](./pics/diagram.png)
 
@@ -55,7 +57,13 @@ Plan : May add a friendly user interface to it.
 
 
 ## Demo 
-
 https://youtu.be/57mUqMczNWY
 
+Step 1: 0:20 Working Azure Cloud Shell environment for Continuous Integration. 
+<br />
+Step 2: 1:31 Successful machine learning prediction that returns back a JSON payload. 
+<br />
+Step 3: 2:46 Working GitHub Actions build 
+<br />
+Step 4: 4:27 Successful deployment using Continuous Delivery on the Azure platform. 
 
