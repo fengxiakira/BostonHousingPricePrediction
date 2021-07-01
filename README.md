@@ -43,10 +43,10 @@ BostonHousingPricePrediction is a web app that hosted on Azure App Service to pr
 The output should look similar to this:
 
 ![prediction](./pics/successful_prediction.png)
-* Output of streamed log files from deployed application
+* Output of streamed log files from a deployed application
 ![logtail](./pics/log-tail.png)
 
-* Locust: load test output
+* Load Test with Locust
 ![locust](./pics/locust.png)
 > 
 
